@@ -1,0 +1,6 @@
+def decimal_to_ascii(decimal):
+    return chr(decimal)
+
+# Example usage:
+decimal = int(input("Enter a decimal number (ASCII value): "))
+print("ASCII character corresponding to", decimal, "is:", decimal_to_ascii(decimal))
